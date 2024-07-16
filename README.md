@@ -3,7 +3,11 @@
 ![GoBuddy](ime1.png)
 ![](ime2.png)
 
-This project is a comprehensive blogging platform built using Spring Boot, Thymeleaf, and PostgreSQL. It offers features such as post creation, viewing, updating, and deletion, along with a robust commenting system supporting nested comments.
+GoBuddy is a technology-enabled platform that connects customers with trusted service 
+   		professionals for a variety of home services, including cleaning, plumbing, laundry, beauty, and 
+   		more.It  aims to simplify urban living by providing reliable and high-quality services through its 
+   		user-friendly website.GoBuddy operates in multiple cities across India and several international 
+   		markets, ensuring customer satisfaction through rigorous professional training and quality checks. 
 
 ## Table of Contents
 
