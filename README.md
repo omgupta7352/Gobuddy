@@ -36,6 +36,7 @@ You can try out the GoBuddy live [here](https://gobuddy-x79s.onrender.com/).
 - Lombok
 - Thymeleaf
 - Maven
+- BootStrap
 
 ## Installation
 
@@ -44,13 +45,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/omgupta7352/Blogsphere.git
+    git clone https://github.com/omgupta7352/Gobuddy.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd Blogsphere
+    cd Gobuddy
     ```
 
 
