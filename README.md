@@ -15,14 +15,15 @@ GoBuddy is a technology-enabled platform that connects customers with trusted se
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
+- [Usage](#usage)
 - [Contributing](#contributing)
 
 ## Features
 
-- Search for the current weather in any city.
-- Display weather details such as temperature, humidity, and wind speed.
-- Show a 5-day weather forecast.
+- User authentication (registration).
+- Browse and book various home services.
+- View and manage bookings.
+- Admin panel for managing services and professionals
 - Responsive design for mobile and desktop use.
 
 ## Demo
@@ -40,7 +41,6 @@ You can try out the GoBuddy live [here](https://gobuddy-x79s.onrender.com/).
 - Lombok
 - Thymeleaf
 - Maven
-- BootStrap
 
 ## Installation
 
@@ -72,20 +72,12 @@ To run this project locally, follow these steps:
 
 4. Open your web browser and go to `http://localhost:8080`.
 
-## API Endpoints
+## Usage
 
-1. Posts
-   - `GET /api/posts`: Get all posts
-   - `GET /api/posts/{id}`: Get a single post by ID
-   - `POST /api/posts`: Create a new post
-   - `PUT /api/posts/{id}`: Update an existing post
-   - `DELETE /api/posts/{id}`: Delete a post
-
-2. Comments
-   - `GET /api/posts/{postId}/comments`: Get all comments for a post
-   - `POST /api/posts/{postId}/comments`: Add a comment to a post
-   - `PUT /api/comments/{id}`: Update a comment
-   - `DELETE /api/comments/{id}`: Delete a comment
+1. Open your browser and navigate to `http://localhost:8080`.
+2. Register a new user account.
+3. Browse available home services and book the desired service.
+4. View and manage your bookings.
 
 
 ## Contributing
