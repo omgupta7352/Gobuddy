@@ -23,7 +23,7 @@ This project is a comprehensive blogging platform built using Spring Boot, Thyme
 
 ## Demo
 
-You can try out the BlogSphere live [here](https://blogsphere-k6xl.onrender.com/).
+You can try out the GoBuddy live [here](https://gobuddy-x79s.onrender.com/).
 
 ## Technologies Used
 
