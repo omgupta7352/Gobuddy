@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GoBuddy</title>
+  </head>
+  <body>
+   
+   
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#"><span class="h3 text-success">Go</span>Buddy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="available_orders">Available Buddy</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="my_orders">My Orders</a>
+        </li>
+      </ul>
+      <div>
+      		 <a class="nav-link text-white" href="order_register">New Buddy Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+   <div class="container text-center my-5">
+   		<h1>WELCOME TO GOBUDDY</h1>
+   		<h6>GoBuddy is a technology-enabled platform that connects customers with trusted service 
+   		professionals for a variety of home services, including cleaning, plumbing, laundry, beauty, and 
+   		more.It  aims to simplify urban living by providing reliable and high-quality services through its 
+   		user-friendly website.GoBuddy operates in multiple cities across India and several international 
+   		markets, ensuring customer satisfaction through rigorous professional training and quality checks. 
+   		</h6>
+
+   </div>
+   
+   
+   <section class="bg-dark m-5 p-5">
+   <div id="carouselExampleDark" class="carousel carousel-dark slide bg-dark" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="/images/chef.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-white">
+        <h2>Cooking Master</h2>
+        <p class="h4">A chef's artistry turns simple ingredients into unforgettable experiences.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="/images/cln.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-white">
+        <h2>Cleaning Master</h2>
+        <p class="h4">A cleaner transforms spaces, bringing order and freshness to every corner.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/grdn.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-white">
+        <h2>Gardening Master</h2>
+        <p class="h4">A gardener cultivates not just plants, but also tranquility and beauty.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev text-white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next text-white" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   </section>
+   
+   
+   <section class="container my-5 p-5">
+  <h1 class="mb-5">Our Service</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-6">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="/images/clea.jpg" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cleaner</h5>
+        <p class="card-text">Cleaning is not just about removing dirt, it's about creating a healthy and welcoming environment.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/driver.jpg" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Driver</h5>
+        <p class="card-text">Driving is the journey that connects people and places, making the world more accessible.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/plm.jpg" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Plumber</h5>
+        <p class="card-text">Good plumbing is the foundation of wellness, ensuring that clean water comes in and waste goes out seamlessly.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/gar.jpg" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gardener</h5>
+        <p class="card-text">Gardening is the purest of human pleasures, nurturing life and beauty in harmony with nature.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/chf.jpg" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Chef</h5>
+        <p class="card-text">Cooking is an art, but all art requires knowing something about the techniques and materials.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/wshr.jpg" class="card-img-top" height="200px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Laundry</h5>
+        <p class="card-text">Washing clothes is more than just a chore; it's about restoring freshness and comfort to everyday life.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  
+   
+   
+   <footer class="bg-dark shadow p-3 mu-5 rounded">
+        <div class="d-flex justify-content-center py-5">
+            <a href="#" class="px-4">
+                <i class="fab fa-facebook fa-2x" style="color:blue"></i>
+            </a>
+            <a href="#" class="px-4">
+                <i class="fab fa-instagram fa-2x" style="color:pink"></i>
+            </a>
+            <a href="#" class="px-4">
+                <i class="fa fa-envelope fa-2x" style="color:white"></i>
+            </a>
+            <a href="#" class="px-4">
+                <i class="fab fa-youtube fa-2x " style="color:red"></i>
+            </a>
+        </div>
+        <p class="text-center mt-n4  text-white">© Copyright 2024 GoBuddy</p>
+    </footer> 
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
