@@ -1,7 +1,10 @@
 # Gobuddy
 
-![GoBuddy](ime1.png)
-![](ime2.png)
+![GoBuddy](home.png)
+![](register.png)
+![](buddy.png)
+![](edit.png)
+![](myorder.png)
 
 GoBuddy is a technology-enabled platform that connects customers with trusted service 
    		professionals for a variety of home services, including cleaning, plumbing, laundry, beauty, and 
