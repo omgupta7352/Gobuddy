@@ -31,7 +31,7 @@ GoBuddy is a technology-enabled platform that connects customers with trusted se
 
 ## Demo
 
-You can try out the GoBuddy live [here](https://gobuddy-tz43.onrender.com).
+You can try out the GoBuddy live [here](https://gobuddy-2.onrender.com/).
 
 ## Technologies Used
 
