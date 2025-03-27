@@ -16,6 +16,7 @@ GoBuddy is a technology-enabled platform that connects customers with trusted se
 
 - [Features](#features)
 - [Demo](#demo)
+- [Diagram](#diagram)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -32,6 +33,22 @@ GoBuddy is a technology-enabled platform that connects customers with trusted se
 ## Demo
 
 You can try out the GoBuddy live [here](https://gobuddy-2.onrender.com/).
+
+## Diagram
+
+```
+
++-----------------+              +-----------------+
+|      Book       | 1          * |   MyBookList    |
++-----------------+ <----------> +-----------------+
+| - id: Integer   |              | - id: Integer   |
+| - name: String  |              | - name: String  |
+| - service: String|             | - service: String|
+| - price: String |              | - price: String |
++-----------------+              +-----------------+
+
+
+```
 
 ## Technologies Used
 
