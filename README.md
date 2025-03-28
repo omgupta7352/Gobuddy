@@ -1,4 +1,4 @@
-# Gobuddy
+# Gobuddy 🚀
 
 ![GoBuddy](home.png)
 ![](register.png)
